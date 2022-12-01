@@ -1,4 +1,4 @@
 Student:2213111368
 Fullname :Gun Eiampornsin
 AKA : Gun
-ClassDetail:Control Statement
+ClassDetail:String Methods and Defined Meth
