@@ -1,4 +1,5 @@
+Date:08/12/2022
 Student:2213111368
 Fullname :Gun Eiampornsin
 AKA : Gun
-ClassDetail:String Methods and Defined Meth
+ClassDetail:Define Method /Review Lab1-4
