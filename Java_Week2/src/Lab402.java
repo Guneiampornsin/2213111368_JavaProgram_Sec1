@@ -11,6 +11,7 @@ public class Lab402 {
 			System.out.print("The sentence must end with full stop point : ");
 			sentence = scan.nextLine();
 		}
+		System.out.println();
 		for(int i=0;i<sentence.length();i++) {
 			System.out.print(sentence.charAt(i));
 			if (sentence.charAt(i) == ' ') {
