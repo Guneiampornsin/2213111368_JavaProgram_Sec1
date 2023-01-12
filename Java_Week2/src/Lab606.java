@@ -28,9 +28,9 @@ public class Lab606 {
 	}//end of checkIndex
 	
 	public static int currentData(int[] nums , int index) {
-		int found = 0;
-		found = nums[index];
-		return found;
+		//int found = 0;
+		//found = nums[index];
+		return nums[index];
 	}//end of currentData
 	public static int prevData(int[] nums , int index) {
 		if (index-1 < 0) {
