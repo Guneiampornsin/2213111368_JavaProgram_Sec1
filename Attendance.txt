@@ -1,5 +1,5 @@
-Date:22/12/2022
+Date:12/01/2023
 Student:2213111368
 Fullname :Gun Eiampornsin
 AKA : Gun
-ClassDetail:Class and Object, Array of Object
+ClassDetail:Review class GUI
