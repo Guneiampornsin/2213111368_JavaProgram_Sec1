@@ -1,0 +1,24 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class TestGUI extends JFrame {
+	private static final int WIDTH = 400;
+	private static final int HEIGHT = 300;
+
+	//Constructor
+	public TestGUI() {
+		setTitle("Area and Perimeter");
+		setSize(WIDTH,HEIGHT);
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TestGUI prog = new TestGUI();
+		
+	}
+
+}

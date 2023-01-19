@@ -1,0 +1,27 @@
+import javax.swing.*;
+public class Lab503 {
+	static int inputYear;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		inputYear = Integer.parseInt(JOptionPane.showInputDialog("Input Year : "));
+		boolean chkYear = checkYear(inputYear);
+		while(chkYear) {
+			inputYear = Integer.parseInt(JOptionPane.showInputDialog(
+					"Please input year between 1000-3000"
+					+"\nInput Year , again"));
+			
+		}
+		
+	}
+	public static boolean checkYear(int year) {
+		if(inputYear<=1000 || inputYear>3000) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+
+}

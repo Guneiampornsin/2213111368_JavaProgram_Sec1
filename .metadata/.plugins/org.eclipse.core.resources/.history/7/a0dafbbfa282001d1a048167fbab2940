@@ -1,0 +1,47 @@
+import java.util.*;
+import java.text.*;
+
+public class CheckStockProduct {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		DecimalFormat db = new DecimalFormat("#,###.#");
+		System.out.print("How many product list in stock : ");
+		Product[] stcProduct = new Product[scan.nextInt()];
+		
+		for (int i = 0; i < stcProduct.length; i++) {	
+			stcProduct[i] = new Product();
+			System.out.print("Input product Id    : ");
+			stcProduct[i].setId(scan.next());
+			System.out.print("Input product Unit  : ");
+			stcProduct[i].setUnit(scan.nextInt());
+			System.out.println();
+			}//end for 
+			System.out.println();
+			System.out.println("------------------------------------------------------");
+			System.out.println("List of product in 'LOW' status . ");
+			System.out.println("------------------------------------------------------");
+			for(Product _stcProduct : stcProduct) {
+				if(_stcProduct.CheckStockProduct().equalsIgnoreCase("LOW")) {
+					System.out.println(">> "+_stcProduct.getId()+" has "+_stcProduct.getUnit()+" units");
+				}//end if
+			}
+			System.out.println("------------------------------------------------------");
+			System.out.println("List of product in 'NORMAL' status . ");
+			System.out.println("------------------------------------------------------");
+			for(Product _stcProduct : stcProduct) {
+				if(_stcProduct.CheckStockProduct().equalsIgnoreCase("NORMAL")) {
+					System.out.println(">> "+_stcProduct.getId()+" has "+_stcProduct.getUnit()+" units");
+				}//end if
+			}
+			System.out.println("------------------------------------------------------");
+			System.out.println("List of product in 'HIGH' status . ");
+			System.out.println("------------------------------------------------------");
+			for(Product _stcProduct : stcProduct) {
+				if(_stcProduct.CheckStockProduct().equalsIgnoreCase("HIGH")) {
+					System.out.println(">> "+_stcProduct.getId()+" has "+_stcProduct.getUnit()+" units");
+				}//end if
+			}
+		}
+}

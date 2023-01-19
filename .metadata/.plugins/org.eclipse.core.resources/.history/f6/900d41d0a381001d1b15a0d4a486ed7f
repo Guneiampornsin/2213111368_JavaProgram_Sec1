@@ -1,0 +1,15 @@
+public class TestPiggyBank {
+	public int one;
+	public int two;
+	public int five;
+	public int ten;
+	public int size;
+	//methods
+	public void setPeggyBank(int s) {
+		clear();
+		size = s;
+	}
+	public void clear() {
+		one=two=five=ten=0;
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class TestPiggyBank {
+	static Scanner  scan = new Scanner (System.in);
+	static PiggyBank pb = new PiggyBank();
+	public static void main(String[] args) {
+		inputCoin();
+			
+	}//end of main()
+	public static void inputCoin() {
+		System.out.println("Money Total: " +pb.getTotal());
+		System.out.println("Please define size of PiggyBank:");
+		//int size = scan.nextInt();
+		//pb.setPiggyBank(size);
+		pb.setPiggyBank(scan.nextInt());
+		System.out.println("Size of your PiggyBank: "+pb.getPiggyBank());
+		
+	}
+	
+	
+}

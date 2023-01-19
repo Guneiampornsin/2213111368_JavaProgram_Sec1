@@ -1,0 +1,6 @@
+public class TestPiggyBank {
+public static void main(String[] args) {
+			PiggyBank pb = new PiggyBank();
+			pb.s
+	}
+}

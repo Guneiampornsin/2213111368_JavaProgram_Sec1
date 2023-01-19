@@ -1,5 +1,5 @@
-Date:12/01/2023
+Date:19/01/2023
 Student:2213111368
 Fullname :Gun Eiampornsin
 AKA : Gun
-ClassDetail:Review class GUI
+ClassDetail:Lab Sheet 8  Encapsulation
